@@ -43,4 +43,27 @@
             android:textSize="@dimen/h2"
             android:textColor="@color/colorText" />
     </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="clickBack"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickExercise"
+            android:text="Exercise"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+    </LinearLayout>
 </RelativeLayout>
