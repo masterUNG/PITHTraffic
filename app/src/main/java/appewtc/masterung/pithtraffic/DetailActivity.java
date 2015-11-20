@@ -39,7 +39,6 @@ public class DetailActivity extends AppCompatActivity {
         String[] strDetail = getResources().getStringArray(R.array.detail);
         detailTextView.setText(strDetail[intIndex]);
 
-
     }
 
     private void bindWidget() {
